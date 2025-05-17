@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  finder:
+    build: .
+    ports:
+      - "8000:8000"
+    restart: always
+    working_dir: /app
